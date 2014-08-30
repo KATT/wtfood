@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95666F7E65EB46EFB71EC8EB /* libPods-WhatTheFood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA536AA4C23D47558E307B87 /* libPods-WhatTheFood.a */; };
+		AA49315319B22F7C00654FDE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = AA49315219B22F7C00654FDE /* tessdata */; };
+		AA49315719B2303D00654FDE /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA49315619B2303D00654FDE /* test.jpg */; };
 		AAEAA72C19B22A0700BBD920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEAA72B19B22A0700BBD920 /* Foundation.framework */; };
 		AAEAA72E19B22A0700BBD920 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEAA72D19B22A0700BBD920 /* CoreGraphics.framework */; };
 		AAEAA73019B22A0700BBD920 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEAA72F19B22A0700BBD920 /* UIKit.framework */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA49315219B22F7C00654FDE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		AA49315619B2303D00654FDE /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		AAEAA72819B22A0700BBD920 /* WhatTheFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatTheFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAA72B19B22A0700BBD920 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAEAA72D19B22A0700BBD920 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		AAEAA75219B22A0700BBD920 /* WhatTheFoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatTheFoodTests-Info.plist"; sourceTree = "<group>"; };
 		AAEAA75419B22A0700BBD920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAEAA75619B22A0700BBD920 /* WhatTheFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatTheFoodTests.m; sourceTree = "<group>"; };
+		B3EF496F8DC44B7B9CFEE67E /* Pods-WhatTheFood.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatTheFood.xcconfig"; path = "Pods/Pods-WhatTheFood.xcconfig"; sourceTree = "<group>"; };
+		DA536AA4C23D47558E307B87 /* libPods-WhatTheFood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhatTheFood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,7 @@
 				AAEAA72E19B22A0700BBD920 /* CoreGraphics.framework in Frameworks */,
 				AAEAA73019B22A0700BBD920 /* UIKit.framework in Frameworks */,
 				AAEAA72C19B22A0700BBD920 /* Foundation.framework in Frameworks */,
+				95666F7E65EB46EFB71EC8EB /* libPods-WhatTheFood.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +94,7 @@
 				AAEAA75019B22A0700BBD920 /* WhatTheFoodTests */,
 				AAEAA72A19B22A0700BBD920 /* Frameworks */,
 				AAEAA72919B22A0700BBD920 /* Products */,
+				B3EF496F8DC44B7B9CFEE67E /* Pods-WhatTheFood.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 				AAEAA72D19B22A0700BBD920 /* CoreGraphics.framework */,
 				AAEAA72F19B22A0700BBD920 /* UIKit.framework */,
 				AAEAA74A19B22A0700BBD920 /* XCTest.framework */,
+				DA536AA4C23D47558E307B87 /* libPods-WhatTheFood.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +136,8 @@
 		AAEAA73219B22A0700BBD920 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA49315619B2303D00654FDE /* test.jpg */,
+				AA49315219B22F7C00654FDE /* tessdata */,
 				AAEAA73319B22A0700BBD920 /* WhatTheFood-Info.plist */,
 				AAEAA73419B22A0700BBD920 /* InfoPlist.strings */,
 				AAEAA73719B22A0700BBD920 /* main.m */,
@@ -159,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAEAA75A19B22A0700BBD920 /* Build configuration list for PBXNativeTarget "WhatTheFood" */;
 			buildPhases = (
+				03FBE40F808F49B89060B7C1 /* Check Pods Manifest.lock */,
 				AAEAA72419B22A0700BBD920 /* Sources */,
 				AAEAA72519B22A0700BBD920 /* Frameworks */,
 				AAEAA72619B22A0700BBD920 /* Resources */,
+				5A1B49AB24094FE2ABA05FC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEAA74419B22A0700BBD920 /* Images.xcassets in Resources */,
+				AA49315719B2303D00654FDE /* test.jpg in Resources */,
+				AA49315319B22F7C00654FDE /* tessdata in Resources */,
 				AAEAA73619B22A0700BBD920 /* InfoPlist.strings in Resources */,
 				AAEAA73F19B22A0700BBD920 /* Main.storyboard in Resources */,
 			);
@@ -243,6 +259,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03FBE40F808F49B89060B7C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1B49AB24094FE2ABA05FC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-WhatTheFood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAEAA72419B22A0700BBD920 /* Sources */ = {
@@ -373,12 +422,14 @@
 		};
 		AAEAA75B19B22A0700BBD920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EF496F8DC44B7B9CFEE67E /* Pods-WhatTheFood.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatTheFood/WhatTheFood-Prefix.pch";
 				INFOPLIST_FILE = "WhatTheFood/WhatTheFood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,12 +437,14 @@
 		};
 		AAEAA75C19B22A0700BBD920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EF496F8DC44B7B9CFEE67E /* Pods-WhatTheFood.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatTheFood/WhatTheFood-Prefix.pch";
 				INFOPLIST_FILE = "WhatTheFood/WhatTheFood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +509,7 @@
 				AAEAA75C19B22A0700BBD920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAEAA75D19B22A0700BBD920 /* Build configuration list for PBXNativeTarget "WhatTheFoodTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +518,7 @@
 				AAEAA75F19B22A0700BBD920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
